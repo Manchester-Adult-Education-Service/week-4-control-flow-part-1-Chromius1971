@@ -115,8 +115,9 @@ print("Step3")
 # Hint: use print((num1 > 10) and (num2 < 20)) to see True or False
 
 # Write your extension code below:
-
-
+password = "Password"
+text=input("Please enter your password ")
+print(text == password)
 # -------------------------------------------
 # Submitting Your Work
 # -------------------------------------------
