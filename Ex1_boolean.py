@@ -27,7 +27,15 @@
 # 2. Compare them using >, <, ==, != and print the results.
 
 # Write your code below:
-
+print("Step 1")
+print()
+num1 = 8
+num2 = 49
+print("Is number 1 greater than number 2?", num1 > num2)
+print("Is number 1 less than number 2?", num1 < num2)
+print("Is number 1 equal to number 2?", num1 == num2)
+print("This is the opposite of equal to", num1 != num2)
+print()
 
 # Step 2: String Comparisons
 # --------------------------
@@ -42,10 +50,15 @@
 # 1. Create your own two string variables.
 # 2. Compare them using == and print the result.
 # 3. Compare them using != and print the result.
-
+print("Step 2")
+print()
 # Write your code below:
-
-
+dog1 = "Spaniel"
+dog2 = "Bulldog"
+print()
+print("Is dog 1 the same as dog 2?", dog1 == dog2)
+print("This is the opposite of the above", dog1 != dog2)
+print()
 # Step 3: Input and Boolean Results
 # ---------------------------------
 # You can get input from the user and immediately check something about it.
@@ -53,9 +66,13 @@
 # Example:
 # print(user_number > 10)  # Prints True if number > 10, False otherwise
 
+ID=int(input("Please enter your ID number "))
+print("Are the ID numbers the same?", ID == num1)
+print()
 # TODO:
 # 1. Ask the user to enter a number and store it in a variable.
 # 2. Compare it to another number and print the Boolean result.
+print("Step3")
 
 # Optional:
 # Ask the user to type a word and compare it to a stored string, then print True/False.
@@ -98,8 +115,9 @@
 # Hint: use print((num1 > 10) and (num2 < 20)) to see True or False
 
 # Write your extension code below:
-
-
+password = "Password"
+text=input("Please enter your password ")
+print(text == password)
 # -------------------------------------------
 # Submitting Your Work
 # -------------------------------------------
